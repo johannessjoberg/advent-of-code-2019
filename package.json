@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "advent-of-code-2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannessjoberg/advent-of-code-2019.git"
+  },
+  "author": "Johannes Sjoberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johannessjoberg/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/johannessjoberg/advent-of-code-2019#readme"
+}
