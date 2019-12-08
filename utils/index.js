@@ -9,5 +9,5 @@ exports.toArray = (data, separator = '\n') =>
         .trim()
         .split(separator);
 
-exports.toArrayOfNumbers = (file) =>
-    exports.toArray(exports.readFile(file)).map((n) => ~~n);
+exports.toArrayOfNumbers = (file, separator) =>
+    exports.toArray(exports.readFile(file), separator).map((n) => ~~n);

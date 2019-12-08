@@ -4,7 +4,7 @@ const massToFuel = (mass) => Math.floor(mass / 3) - 2;
 const recursiveFuelCalculator = (acc, fuel) => {
 	const fuelRequiredByFuel = massToFuel(fuel);
 
-	if (fuelRequiredByFuel >= 6) {
+	if (massToFuel(fuelRequiredByFuel) > 0) {
 		return recursiveFuelCalculator(acc + fuelRequiredByFuel, fuelRequiredByFuel);
 	}
 
