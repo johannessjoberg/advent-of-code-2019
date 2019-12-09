@@ -5,6 +5,6 @@ describe('02', () => {
         const input = [1,0,0,0,99];
         const expected = [2,0,0,0,99];
 
-        expect(one(input)).toEqual(expected);
+        expect(one(input, 0, 0)).toEqual(expected);
     });
 });

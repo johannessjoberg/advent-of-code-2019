@@ -27,5 +27,7 @@ const two = (fileName) =>  {
 	}, 0);
 };
 
-console.log('one', one('01/data.txt'));
-console.log('two', two('01/data.txt'));
+exports.run = () => {
+    console.log('one', one('01/data.txt'));
+    console.log('two', two('01/data.txt'));
+};
